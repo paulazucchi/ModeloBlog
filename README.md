@@ -10,7 +10,9 @@ No projeto contém cinco páginas e cinco elementos de navegação. Utilizando g
 
 
 
-
+<div align="center">
+  <img align="center" src="/assets/homeblog.jpg" >
+</div>
 
 
 
