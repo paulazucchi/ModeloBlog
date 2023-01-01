@@ -1,0 +1,199 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium;
+
+    position: relative;
+}
+
+
+.cabecalho{
+    width: 100%;
+    background:rgb(97, 95, 95);
+    margin-bottom: 50px;
+}
+
+.menu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.menu .cabecalho_logo img{
+    height: 165px;
+    width: 180px;
+}
+
+
+.menu .menu-list{
+    
+    list-style: none;
+    padding: 0;
+    margin-right: 60px;
+    
+}
+
+
+
+.menu .menu-list li {
+    color: #E7DBBE;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    display: inline;
+    min-height: 100%;
+}
+
+
+.menu .menu-list li:hover{
+    
+    color:#D85F37;
+    text-shadow:0px 0px 25px #D85F37;
+    cursor: pointer;
+}
+
+.menu .menu-list .pagina-menu.ativo {
+    color:#E7DBBE;
+    text-shadow:0px 0px 15px #fff;
+}
+
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:rgb(97, 95, 95);
+    color: #fdfdfd;
+    min-width:90hv;
+    height: 80px;
+    margin-top: 60px;
+}
+
+
+.main{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-height: 60vh;
+    margin: auto;
+}
+
+.main .pagina{
+    display: none;
+}
+
+.main .pagina.exibir{
+    display: flex;
+}
+
+
+.main .pagina.home{
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+}
+.main .pagina.home .subTitulo {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.main .home .descricaoContinente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .home .descricaoContinente .linha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main .home .descricaoContinente .linha.reversa{
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.main .home .descricaoContinente .linha figure img{
+    max-width: 500px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+
+.main .home .descricaoContinente .linha article {
+    margin: 30px 50px 30px 30px;
+    text-align: justify;
+}
+.main .home .descricaoContinente .linha article header h3{
+    padding: 5px 0;
+}
+
+.main .home .descricaoContinente .linha article footer{
+    padding: 20px 0px;
+}
+
+.main .home .descricaoContinente .linha .botao{
+    background-color: #D85F37;
+    padding: 10px 25px;
+    border: 1px solid #974024;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.main .home .descricaoContinente .linha .botao:hover{
+    background-color: #662f1c;
+    
+    color: #E7DBBE;
+}
+
+
+.detalhes{
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.detalhes figure{
+    margin: auto;
+}
+
+.detalhes figure img{
+    max-width: 500px;
+    max-height: 500px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.detalhes article {
+    text-align: justify;
+    margin: 30px 50px 30px 30px;
+}
+.detalhes article header{
+    padding: 5px 0;
+}
+
+
+.main .pagina .beneficios ol{
+    padding-left: 20px;
+}
+
+.main .pagina .beneficios ol li{
+    padding: 5px;
+}
